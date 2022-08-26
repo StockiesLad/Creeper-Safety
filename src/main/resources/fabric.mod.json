@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fluffybumblebee.creepersafety.mixin.LivingEntityMixin"
+      "net.fluffybumblebee.creepersafety.CreeperSafety"
     ]
   },
   "mixins": [

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "creepersafety",
+  "version": "${version}",
+
+  "name": "Creeper Safety",
+  "description": "Why should creepers take explosive damage? How about no!",
+  "authors": [
+    "Fluffy Bumblebee"
+  ],
+  "contact": {
+    "sources": ""
+  },
+
+  "license": "LGPL-2.1",
+  "icon": "assets/creepersafety/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fluffybumblebee.creepersafety.mixin.LivingEntityMixin"
+    ]
+  },
+  "mixins": [
+    "creepersafety.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "creeperaiupdated"
+  }
+}

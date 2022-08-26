@@ -4,6 +4,7 @@
   "package": "net.fluffybumblebee.creepersafety.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "CreeperEntityMixin",
     "LivingEntityMixin"
   ],
   "client": [

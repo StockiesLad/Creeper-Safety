@@ -12,7 +12,7 @@
     "sources": ""
   },
 
-  "license": "LGPL-2.1",
+  "license": "LGPL-3.0",
   "icon": "assets/creepersafety/icon.png",
 
   "environment": "*",

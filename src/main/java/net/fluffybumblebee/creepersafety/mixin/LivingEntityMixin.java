@@ -13,6 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class LivingEntityMixin {
     @Inject(method = "damage", at = @At("HEAD"), cancellable = true)
     private void saveCreepersFromExplosion(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir) {
+        //noinspection ConstantValue
         if((Object)this instanceof CreeperEntity creeper) {
             if(source.isFire()) {
                 ((ExplodeOnFire)creeper).explodeOnFire();

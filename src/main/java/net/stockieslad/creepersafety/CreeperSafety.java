@@ -1,4 +1,4 @@
-package net.fluffybumblebee.creepersafety;
+package net.stockieslad.creepersafety;
 
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;

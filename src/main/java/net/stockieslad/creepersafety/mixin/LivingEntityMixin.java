@@ -1,6 +1,6 @@
-package net.fluffybumblebee.creepersafety.mixin;
+package net.stockieslad.creepersafety.mixin;
 
-import net.fluffybumblebee.creepersafety.ExplodeOnFire;
+import net.stockieslad.creepersafety.ExplodeOnFire;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.mob.CreeperEntity;
